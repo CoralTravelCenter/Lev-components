@@ -1,0 +1,21 @@
+.links__item_opened {
+	.links__content {
+		transition: 0.3s;
+		max-height: 1000px;
+		opacity: 1;
+		visibility: visible;
+		pointer-events: auto;
+		padding: 64px 32px 32px 32px;
+		margin: -32px 0 0 0;
+
+		@media screen and (max-width: 768px) {
+			padding: 32px 16px 16px 16px;
+			margin: -16px 0 0 0;
+		}
+	}
+
+	.links__arrow {
+		transition: 0.3s;
+		transform: rotate(180deg);
+	}
+}

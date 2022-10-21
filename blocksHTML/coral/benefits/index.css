@@ -1,0 +1,121 @@
+.benefits {
+  background: #fff;
+  padding: 60px 26px;
+  margin: 0 0 60px 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+@media screen and (max-width: 1006px) {
+  .benefits {
+    padding: 60px 45px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .benefits {
+    padding: 30px 22px;
+    border-radius: 0;
+    row-gap: 30px;
+  }
+}
+
+.benefits__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .benefits__title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .benefits__title {
+    font-size: 24px;
+  }
+}
+
+.benefits__list {
+  display: flex;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+  padding: 0;
+  justify-content: center;
+  margin: 0;
+}
+@media screen and (max-width: 1006px) {
+  .benefits__list {
+    row-gap: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .benefits__list {
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+}
+
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 12px;
+  flex-basis: 16.6666666667%;
+}
+@media screen and (max-width: 768px) {
+  .benefits__item {
+    flex-basis: calc(33.3333333333% - 8px);
+  }
+}
+.benefits__item::after, .benefits__item::before {
+  content: none !important;
+}
+
+.benefits__ico {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .benefits__ico {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .benefits__ico {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.benefits__description {
+  width: 75%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  margin: 0;
+}
+.benefits__description span {
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .benefits__description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .benefits__description {
+    font-size: 14px;
+  }
+}

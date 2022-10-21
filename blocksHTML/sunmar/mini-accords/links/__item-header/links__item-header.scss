@@ -1,0 +1,16 @@
+.links__item-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 32px;
+	background: #fff;
+	border-radius: 20px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+
+	@media screen and (max-width: 768px) {
+		padding: 16px;
+		border-radius: 10px;
+	}
+}

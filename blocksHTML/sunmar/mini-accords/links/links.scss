@@ -1,0 +1,21 @@
+.links {
+    list-style: none !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0 0 80px 0 !important;
+    gap: 24px;
+
+    @media screen and (max-width: 768px) {
+        gap: 12px;
+    }
+}
+
+@import "./__title/links__title.scss";
+@import "./__link/links__link.scss";
+@import "./__item/links__item.scss";
+@import "./__item/_opened/links__item_opened.scss";
+@import "./__item-header/links__item-header.scss";
+@import "./__content/links__content.scss";
+@import "./__arrow/links__arrow.scss";

@@ -1,0 +1,38 @@
+.contentLayout-BaseContainer .notcritical .container {
+	margin: 0 !important;
+	padding: 0 !important;
+	max-width: unset !important;
+	overflow: hidden !important;
+}
+.notcritical {
+	padding-top: 0 !important;
+}
+.bcrumb {
+	display: none !important;
+}
+.subpage-search-bg > .background:before {
+	content: unset !important;
+}
+
+div.container-tabItemWrap .container-tabItem.activeTab {
+	position: absolute !important;
+}
+
+@media screen and (max-width: 768px) {
+	.contentLayout-BaseContainer .notcritical {
+		padding-top: 0 !important;
+	}
+
+	.contentLayout-BaseContainer .notcritical .container {
+		margin-top: 0 !important;
+	}
+}
+
+.oti-content-typography ul li:before,
+.oti-content-typography ul li:after {
+	content: none !important;
+}
+
+h1 {
+	display: none !important;
+}

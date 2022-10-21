@@ -1,0 +1,36 @@
+.wp {
+  width: 1370px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+@media screen and (max-width: 1439px) {
+  .wp {
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 1199px) {
+  .wp {
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 1006px) {
+  .wp {
+    width: 100%;
+  }
+}
+
+.wp_grid {
+  display: flex;
+  align-items: stretch;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .wp_grid {
+    gap: unset;
+  }
+}
